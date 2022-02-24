@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "worker": "node index.js",
+    "test": "node test.js",
     "heroku-postbuild": "cd e-commerce-client && npm install && npm run build"
   },
   "keywords": [],
