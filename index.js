@@ -54,7 +54,7 @@ app.get("*", (req, res)=>{
 
 // admin site
 app.use(express.static(path.join(__dirname, "/admin-site/build")))
-app.get("*", (req, res)=>{
+app.get("/adm", (req, res)=>{
     res.sendFile(path.join(__dirname, "/admin-site/build", "index.html"))
 })
 

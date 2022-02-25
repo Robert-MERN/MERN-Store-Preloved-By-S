@@ -91,7 +91,7 @@ export default function Navbar() {
                 </Left>
                 <Center>
                     <div className="wrapper">
-                        <h1>{screen <= 375? "HEAVENX." : "HEAVENXABAYA."}</h1>
+                        <h1>{screen <= 375? "PRELOVED-S." : "PRELOVED-BY-S"}</h1>
                     </div>
                 </Center>
                 <Right>

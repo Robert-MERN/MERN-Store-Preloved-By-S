@@ -17,7 +17,7 @@ export default function Footer() {
         <Container>
             <Left>
                 <Fade left>
-                    <h1>HEAVEN x ABAYA </h1>
+                    <h1>PRELOVED-by-S</h1>
                 </Fade>
                 <Fade top>
                     <p>
