@@ -19,7 +19,7 @@ export default function SignoutOption({userPermission, parentOption, loginShowOp
                         <HomeIcon/>
                     </div>
                 </Link>
-                <Link className='link'  to="/admin">
+                <Link className='link'  to="/adm/admin">
                     <div>
                         <p>Admin</p>
                         <PersonIcon/>
