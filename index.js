@@ -47,10 +47,10 @@ app.use("/api/order", orderRouter);
 app.use("/api/checkout", stripeRouter);
 
 // client site
-app.use(express.static(path.join(__dirname, "/e-commerce-client/build")))
-app.get("*", (req, res)=>{
-    res.sendFile(path.join(__dirname, "/e-commerce-client/build", "index.html"))
-})
+// app.use(express.static(path.join(__dirname, "/e-commerce-client/build")))
+// app.get("*", (req, res)=>{
+//     res.sendFile(path.join(__dirname, "/e-commerce-client/build", "index.html"))
+// })
 
 // admin site
 app.use(express.static(path.join(__dirname, "/admin-site/build")))
