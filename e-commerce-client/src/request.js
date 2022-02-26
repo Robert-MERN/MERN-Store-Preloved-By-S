@@ -4,7 +4,7 @@ import { selectUser } from "./redux/userSlice";
 
 
 export const Request = (boolean)=>{
-    const baseUrl = "https://preloved-by-s.herokuapp.com/api/";
+    const baseUrl = "https://preloved-by-s.herokuapp.com/api";
     const token = useSelector(selectUser);
     const PublicRequest = axios.create({
         baseURL: baseUrl,
