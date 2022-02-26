@@ -7,7 +7,7 @@
     "start": "node index.js",
     "worker": "node index.js",
     "test": "node test.js",
-    "heroku-postbuild": "cd e-commerce-client && npm install && npm run build cd admin-site && npm install && npm run build"
+    "heroku-postbuild": "cd e-commerce-client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
