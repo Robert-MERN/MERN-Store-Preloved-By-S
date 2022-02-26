@@ -54,7 +54,7 @@ app.use("/api/checkout", stripeRouter);
 
 // admin site
 app.use(express.static(path.join(__dirname, "/admin-site/build")))
-app.get("/adm", (req, res)=>{
+app.get("*", (req, res)=>{
     res.sendFile(path.join(__dirname, "/admin-site/build", "index.html"))
 })
 
