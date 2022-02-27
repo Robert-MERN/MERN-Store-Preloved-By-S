@@ -52,12 +52,6 @@ app.get("*", (req, res)=>{
     res.sendFile(path.join(__dirname, "/e-commerce-client/build", "index.html"))
 })
 
-// admin site
-app.use(express.static(path.join(__dirname, "admin-site/build")))
-app.get("*", (req, res)=>{
-    res.sendFile(path.join(__dirname, "admin-site/build", "index.html"))
-})
-
 // backend server
 app.listen(process.env.PORT || 5000, ()=> {
     console.log("backend server is running");
