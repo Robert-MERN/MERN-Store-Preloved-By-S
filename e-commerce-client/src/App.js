@@ -16,6 +16,16 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import styled from "styled-components";
 import { anime } from "./messageAnimation";
 import axios from "axios";
+import Sidebar from "./components/sidebar/Sidebar";
+import Topbar from "./components/topbar/Topbar";
+import Home from "./pages/home/Home";
+import UserList from "./pages/userList/UserList";
+import User from "./pages/user/User";
+import NewUser from "./pages/newUser/NewUser";
+import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/product/Product";
+import NewProduct from "./pages/newProduct/NewProduct";
+import "./App.css";
 
 
 function App() {
