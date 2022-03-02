@@ -18,7 +18,7 @@ import { anime } from "./messageAnimation";
 import axios from "axios";
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
-import Home from "./pages/home/Home";
+import HOMY from "./pages/homy/HOMY";
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
@@ -79,7 +79,39 @@ function App() {
               <Success />
             </Route>
           </Switch>
-          : 
+          :(FP[0] === "adm")? 
+            <>
+            <Router>
+            <Topbar />
+            <div className="container">
+              <Sidebar />
+              <Switch>
+                <Route exact path="/adm">
+                  <HOMY />
+                </Route>
+                <Route path="/adm/users">
+                  <UserList />
+                </Route>
+                <Route path="/adm/user/:userId">
+                  <User />
+                </Route>
+                <Route path="/adm/newUser">
+                  <NewUser />
+                </Route>
+                <Route path="/adm/products">
+                  <ProductList />
+                </Route>
+                <Route path="/adm/product/:productId">
+                  <Product />
+                </Route>
+                <Route path="/adm/newproduct">
+                  <NewProduct />
+                </Route>
+              </Switch>
+            </div>
+          </Router>
+            </>
+            :
             <Switch>
               <Route exact path="/">
                 <Fade>
