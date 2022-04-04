@@ -53,6 +53,6 @@ app.get("*", (req, res)=>{
 })
 
 // backend server
-app.listen(process.env.PORT || 5000, ()=> {
+app.listen(process.env.PORT || 9900, ()=> {
     console.log("backend server is running");
 })

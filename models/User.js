@@ -6,16 +6,19 @@ const UserSchema = new mongoose.Schema({
         max: 20,
         min: 4,
         unique: true,
-        // required: true,
+        required: true,
+    },
+    profile: {
+        type: String,
     },
     email: {
         type: String,
-        // required: true,
+        required: true,
     },
     password: {
         type: String,
         min: 8,
-        // required: true,
+        required: true,
         max: 20
     },
     isAdmin: {
@@ -23,24 +26,24 @@ const UserSchema = new mongoose.Schema({
         default: false,
     },
     firstName: {
-        // required: true,
+        required: true,
         max: 25,
         min: 4,
         type: String
     },
     lastName: {
-        // required: true,
+        required: true,
         max: 25,
         min: 4,
         type: String
     },
     phoneNumber: {
         type: String,
-        // required: true,
+        required: true,
     },
     birthDate: {
         type: String,
-        // required: true,
+        required: true,
     }
 }, {timestamps: true})
 

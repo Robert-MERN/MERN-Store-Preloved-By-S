@@ -12,7 +12,7 @@ const ProductSchema = new mongoose.Schema({
     },
     img: {
         type: String,
-        required: true
+        // required: true
     },
     hoverImg: {
         type: String,
@@ -26,7 +26,7 @@ const ProductSchema = new mongoose.Schema({
     color: {
         type: Array,
     },
-    price: {
+    sellingPrice: {
         type: Number,
         required: true,
     },
@@ -38,6 +38,10 @@ const ProductSchema = new mongoose.Schema({
         type: Number,
         required: true,
         default: 1,
+    },
+    costPrice: {
+        type: Number,
+        required: true,
     }
 
 }, {timestamps: true})

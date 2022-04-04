@@ -7,9 +7,9 @@ const passport  = require("passport");
 
 
 // register
-router.post("/register", async(req, res)=> {
+router.post("/register", async (req, res)=> {
     try {
-        const encrypted = CryptoJS.AES.encrypt(req.body.password, process.env.SECRET_KEY).toString();
+        const encrypted = CryptoJS.AES.encrypt(req.body.password, "muneeb8800").toString();
         const body = req.body;
         const user = new User({
             ...body,
@@ -23,11 +23,11 @@ router.post("/register", async(req, res)=> {
 });
 
 //  login
-router.post("/login", async(req, res)=> {
+router.post("/login", async (req, res)=> {
     try {
         const user = await User.findOne({username: req.body.username});
         if(user){
-            const decrypted = CryptoJS.AES.decrypt(user.password, process.env.SECRET_KEY);
+            const decrypted = CryptoJS.AES.decrypt(user.password, "muneeb8800");
             const originalPassword = decrypted.toString(CryptoJS.enc.Utf8);
             if(req.body.password === originalPassword){
                 const { password, ...other } = user._doc;
