@@ -32,12 +32,14 @@ app.use(cookieSession({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://preloved-by-s.herokuapp.com",
     methods: "GET,PUT,DELETE,POST",
     credentials: true
 }));
 app.use(morgan("common"));
-app.use(helmet());
+app.use(helmet({
+    contentSecurityPolicy: false,
+  }));
 app.use(express.json());
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
