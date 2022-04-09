@@ -1,0 +1,96 @@
+.statusContainer {
+    width: 100%;
+    padding: 10px 4.5rem;
+    display: flex;
+    flex-direction: column; 
+}
+.statusWrapper {
+    padding: 30px 35px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+
+}
+.statusTop {
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(211, 208, 208);
+    position: relative;
+}
+.statusImg {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: -16px;
+    left: -25px;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.statusInput {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16.5px;
+    margin-left: 50px;
+}
+.statusBottom {
+    display: flex;
+    justify-content: space-between;
+}
+.statusIcons{
+    display: flex;
+    align-items: center;
+}
+.statusIcons span {
+    font-size: 17.5px;
+    color: rgb(51, 50, 50);
+    font-weight: 600;
+    cursor: pointer;
+}
+.statusIcons span:hover {
+    text-decoration: underline;
+}
+.media, .label, .location, .feeling {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.mediaIcon{
+    color: rgb(231, 99, 99);
+    margin-right: 6px;
+    cursor: pointer;
+}
+.labelIcon {
+    color: rgb(58, 58, 163);
+    margin-right: 6px;
+    cursor: pointer;
+}
+.locationIcon {
+    color: rgb(17, 122, 17);
+    margin-right: 6px;
+    cursor: pointer;
+}
+.feelingIcon {
+    color: rgb(187, 187, 18);
+    margin-right: 6px;
+    cursor: pointer; 
+}
+.shareBtn {
+    padding: 9px;
+    width: 70px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(25, 134, 25);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.shareBtn:hover {
+    background-color: rgb(51, 158, 51);
+}

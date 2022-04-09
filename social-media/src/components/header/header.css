@@ -1,0 +1,254 @@
+.container {
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(0, 126, 211);
+    color: rgba(255, 255, 255, 0.911);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+.wrap {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    background-color:white;
+    border-radius: 50px;
+    padding: 6px;
+    margin-right: 20px;
+    position: relative;
+}
+.searchIcon {
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 250ms;
+}
+.inputText {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(63, 61, 61);
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.options {
+    display: flex;
+    align-items: center;  
+}
+.homePageOption {
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer; 
+}
+.timelineOption {
+    font-size: 18px;
+    cursor: pointer; 
+}
+.childContainer {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-around;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    min-width: 20rem;
+    justify-content: center;
+}
+.icon-1, .icon-2, .icon-3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.personIcon {
+    transform: scale(1.3);
+    margin: 0 20px;
+}
+.chatIcon {
+    transform: scale(1.2);
+    margin: 0 20px; 
+}
+.notificationIcon {
+    transform: scale(1.2);
+    margin: 0 10px;
+}
+.circle-1, .circle-2, .circle-3 {
+    min-width: 17px;
+    height: 17px;
+    background-color: red;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    border-radius: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.circle-3 {
+    right: 1px
+}
+.profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.imageContainer {
+    display: flex;
+    align-items: center;
+    
+}
+.image {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 40px;
+    border: none;
+}
+.searchFilterContainer{
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    border-radius: 8px;
+    z-index: 10;
+    max-height: 20rem;
+    overflow: hidden;
+    overflow-y: auto;
+    box-shadow: 0 10px 20px -8px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.searchFilterContainer::-webkit-scrollbar{
+    display: none;
+}
+.searchUserContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.searchUserContainer:hover{
+    background-color: rgb(226, 226, 226);
+}
+.searchUsers {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.searchUsersName {
+    font-size: 17px;
+    color: rgb(36, 36, 36);
+}
+.cancelIcon{
+    transform: scale(0.8);
+    display: flex;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 250 ms;
+}
+@media screen and (max-width: 1422px){
+    .childContainer{
+        display: none;
+    }
+    .searchBar{
+        margin-right: 12rem;
+    }
+}
+@media screen and (max-width: 1200px){
+    .childContainer{
+        display: none;
+    }
+    .title{
+        margin-right: 10rem;
+    }
+}
+@media screen and (max-width: 1150px){
+    .childContainer{
+        display: none;
+    }
+    .title{
+        margin-right: 10rem;
+    }
+    .options{
+        display: none;
+    }
+}
+@media screen and (max-width: 964px){
+    .input {
+        width: 24rem;
+    }
+}
+@media screen and (max-width: 760px){
+    .input {
+        width: 20rem;
+    }
+    .title{
+        margin-right: 8rem;
+    }
+}
+@media screen and (max-width: 610px){
+    .title{
+        margin-right: 4rem;
+    }
+}
+@media screen and (max-width: 540px){
+    .title{
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 512px){
+    .container {
+        height: 90px;
+        padding-bottom: 15px;
+    }
+    .wrap{
+        flex-direction: column;
+        align-items: start;
+    }
+    .title{
+        margin-bottom: 5px;
+    }
+    .input{
+        width: 22rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .input{
+        width: 18rem;
+    }
+}
+
+
+

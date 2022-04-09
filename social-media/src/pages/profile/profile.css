@@ -1,0 +1,52 @@
+.wrapper-1{
+    display: flex;
+}
+.profileRightTop {
+    flex: 9;
+    height: 650px;
+    margin-bottom: 15px;
+}
+.photos {
+    width: 100%;
+    position: relative;
+}
+.coverPhoto{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profilePhoto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 390px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.profileRightBottom {
+    display: flex;
+}
+.profileName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.topName{
+    font-size: 35px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.statusName {
+    font-size: 18px;
+    color: rgb(87, 87, 87);
+    font-style: sans-serif;
+    cursor: pointer;
+}

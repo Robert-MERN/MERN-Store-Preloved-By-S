@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "user": "Shuja Hussain",
+        "timestamp": "5 sec ago",
+        "caption": "Don't see my dp if you can't control your bp",
+        "like" : 700,
+        "comment": 500,
+        "post": "/assets/images/post1.jpg",
+        "profile": "/assets/images/profile1.jpg"
+    },
+    {
+        "id": 2,
+        "user": "Saima Kaleem",
+        "userId": 1,
+        "timestamp": "3 hrs ago",
+        "caption": "Take my advice, I don’t use it anyway.",
+        "like" : 56,
+        "comment": 5,
+        "post": "/assets/images/post2.jpg",
+        "profile": "/assets/images/profile2.jpg"
+    },
+    {
+        "id": 3,
+        "user": "Safeer Ahmed",
+        "timestamp": "54 mins ago",
+        "userId": 1,
+        "caption": "Proof that I can do selfies better than you",
+        "like" : 106,
+        "comment": 20,
+        "post": "/assets/images/post3.jpg",
+        "profile": "/assets/images/profile3.jpg"
+    },
+    {
+        "id": 4,
+        "user": "Tabraiz Muthal",
+        "userId": 1,
+        "timestamp": "1 hrs ago",
+        "caption": "I hope the next big trend in any form of art is genuine talent and quality.",
+        "like" : 985,
+        "comment": 15,
+        "post": "/assets/images/post4.jpg",
+        "profile": "/assets/images/profile4.jpg"
+    },
+    {
+        "id": 5,
+        "user": "Salman Padora",
+        "timestamp": "10 days ago",
+        "caption": "When you die, the others around you suffer. Same when you are stupid.",
+        "like" : 20,
+        "comment": 2,
+        "post": "/assets/images/post5.jpg",
+        "profile": "/assets/images/profile5.jpg"
+    },
+    {
+        "id": 6,
+        "user": "Haji Mustaqeem",
+        "timestamp": "45 sec ago",
+        "userId": 1,
+        "caption": "Between diet soda, the Impossible Whopper and non-dairy creamer, our foods have become more fake than our online personas.",
+        "like" : 12,
+        "comment": "1",
+        "post": "/assets/images/post6.jpg",
+        "profile": "/assets/images/profile6.jpg"
+    },
+    {
+        "id": 7,
+        "user": "Hafiz Salim",
+        "userId": 1,
+        "timestamp": "33 mins ago",
+        "caption": "",
+        "like" : 500,
+        "comment": 12,
+        "post": "/assets/images/post7.jpg",
+        "profile": "/assets/images/profile7.jpg"
+    },
+    {
+        "id": 8,
+        "user": "Raheel Ahmed",
+        "timestamp": "5 yrs ago",
+        "caption": "Mosquitoes are like family as they suck blood.",
+        "like" : 69,
+        "comment": 18,
+        "post": "/assets/images/post8.jpg",
+        "profile": "/assets/images/profile8.jpg"
+    },
+    {
+        "id": 9,
+        "user": "Maaz Nadeem",
+        "timestamp": "9 hrs ago",
+        "caption": "Seems like I picked the wrong week to an adult.",
+        "like" : 87,
+        "comment": 29,
+        "post": "/assets/images/post9.jpg",
+        "profile": "/assets/images/profile9.jpg"
+    },
+    {
+        "id": 10,
+        "user": "Zuhair Flight",
+        "timestamp": "1 month ago",
+        "caption": "",
+        "like" : 265,
+        "comment": 56,
+        "post": "/assets/images/post10.jpg",
+        "profile": "/assets/images/profile10.jpg"
+    },
+    {
+        "id": 11,
+        "userId": 1,
+        "user": "Noreen Chingarni",
+        "timestamp": "7 weeks ago",
+        "caption": "I’m so poor I can’t even pay attention!",
+        "like" : 656,
+        "comment": 99,
+        "post": "/assets/images/post11.jpg",
+        "profile": "/assets/images/profile11.jpg"
+    },
+    {
+        "id": 12,
+        "user": "Kaleem Kasaai",
+        "timestamp": "8 days ago",
+        "caption": "What is common in politicians and diapers? Both need to change regularly.",
+        "like" : 5,
+        "comment": 1,
+        "post": "/assets/images/post12.jpg",
+        "profile": "/assets/images/profile12.jpg"
+    },
+    {
+        "id": 13,
+        "user": "Sameer Muneeb",
+        "timestamp": "2 days ago",
+        "caption": "Chaii peelo garam hai!",
+        "like" : 5,
+        "comment": 1,
+        "post": "/assets/images/post14.jpg",
+        "profile": "/assets/images/profile13.jpg"
+    }     
+]

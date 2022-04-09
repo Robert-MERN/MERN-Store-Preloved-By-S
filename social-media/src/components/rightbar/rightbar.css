@@ -1,0 +1,156 @@
+.parent-3 {
+    flex: 4;
+    height: calc(100vh - 60px);
+    position: sticky;
+    top: 60px;
+    overflow-y: auto;
+}
+.parent-3::-webkit-scrollbar{
+    display: none;
+}
+.partner-3 {
+    flex: 4;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+}
+.rightbarContainer {
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.birthday {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.gift {
+    width: 70px;
+    cursor: pointer;
+}
+.giftDesc {
+    font-size: 17px;
+    overflow-wrap: break-word;
+    width: 25.5rem;
+}
+.specificName, .otherFriends {
+    font-weight: 700;
+    cursor: pointer;
+}
+.specificName:hover, .otherFriends:hover {
+    text-decoration: underline;
+}
+.adContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.adImage {
+    object-fit: cover;
+    width: 25rem;
+    height: 20rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.onlineFriendContainer {
+    margin-bottom: 15px;
+}
+.onlineHeading {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.onlineUsers {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.onlineSign {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: rgb(38, 160, 38);
+    border: 3px solid white;
+    position: absolute;
+    top: 0;
+    left: 2.1rem;
+    cursor: pointer;
+}
+.onlineUserImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.onlineUserName {
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.onlineUserName:hover {
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.border{
+    width: 480px;
+}
+.userInfo{
+    margin-bottom: 20px;
+}
+.userInfo span {
+    line-height: 35px;
+}
+.top-heading{
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.from, .relation, .city {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+
+}
+.cityName, .belongArea, .relationStatus {
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgb(98, 97, 97);
+    cursor: pointer;
+}
+.bottom-heading {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    cursor: pointer;
+    margin-bottom: 15px;  
+}
+.friend-1-name{
+    font-size: 16px;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    overflow-wrap: break-word;
+}
+.friend-1{
+    height: 125px;
+    width: 125px;
+    border-radius: 8px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.allFriends{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userFriendBox{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,320 @@
+.postWrapper {
+    padding: 10px; 
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    
+}
+.postTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.postTop-left {
+    display: flex;
+    align-items: center;
+}
+.postTopImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.heading {
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.timestamp{
+    font-size: 14px;
+    color: rgb(136, 135, 135);
+    cursor: pointer;
+
+}
+.timestamp:hover, .heading:hover {
+    text-decoration: underline;
+}
+.dotIcon{
+    cursor: pointer;
+    border-radius: 30px;
+}
+.dotIcon:active {
+    background-color: rgba(78, 76, 76, 0.2);
+}
+.caption {
+    width: 42rem;
+    display: flex;
+    overflow-wrap: break-word;
+    margin-bottom: 15px;
+}
+.captionText {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(29, 28, 28); 
+}
+.postImageContainer{
+    margin-bottom: 30px;
+    max-width: 44.6rem;
+    max-height: 50rem;
+    overflow: hidden;
+}
+.postImage {
+    width: 44.6rem;
+    max-height: 50rem;
+    object-fit: cover;
+}
+.postBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.postBottom-left{
+    display: flex;
+    align-items: center;
+}
+.likeIconBG, .heartIconBG{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(51, 108, 231);
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.heartIconBG{
+    background: rgb(236, 86, 86);
+}
+.likeDesc {
+    color: rgb(100, 99, 99);
+    font-size: 15px;
+}
+.comments {
+    font-weight: 500;
+    cursor: pointer;
+}
+.likeNum, .commentNum {
+    cursor: pointer;
+    transition: all 300ms;
+}
+.cardContainer{
+    padding: 15px;
+    box-shadow: 0 8px 10px -8px rgba(0, 0, 0, 0.68);
+    position: absolute;
+    right: 41.9rem;
+    z-index: 1;
+    background-color: #fff;
+    margin-top: 2.6rem;
+    border-radius: 15px;
+}
+.option-2 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(182, 180, 180);
+    padding-bottom: 10px;
+}
+.option-1 {
+    border-bottom: 1px solid rgb(182, 180, 180);
+    padding-bottom: 17px;
+}
+.option-1, .childOption-1, .childOption-2, .childOption-3, .childOption-4, .embed, .turnOn {
+    display: flex;
+    line-height: 22px;
+}
+.option-1, .childOption-1, .childOption-2, .childOption-3, .childOption-4{
+    margin-bottom: 10px;
+}
+.description, .embedDesc, .turnOnDesc {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.embedDesc, .turnOnDesc, .mb {
+    margin-bottom: 12px;
+}
+.h {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(65, 63, 63);
+}
+.d {
+    font-size: 12.4px;
+    color: rgb(63, 60, 60);
+    cursor: pointer;
+}
+.i {
+    color: rgb(66, 63, 63);
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+.cardContainerInvisible {
+    display: none;
+}
+.commentContainer {
+    display: flex;
+    margin-top: 15px;
+    border-top: 1px solid rgb(200, 200, 200);
+    padding-top: 10px;
+}
+.commentContainer-1 {
+    margin-top: 15px;
+    border-top: 1px solid rgb(200, 200, 200);
+    padding-top: 10px;
+}
+.showMoreComment {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+    font-weight: 500;
+}
+.showMoreComment:hover {
+    text-decoration: underline;
+}
+.arrowDropIcon {
+    transform: scale(0.9);
+}
+.childCommentWrapper {
+    margin-bottom: 20px;
+    display: flex;
+    animation: popup 0.2s ease-in;
+}
+.userComment {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.commentWrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.commentText {
+    border: none;
+    outline: none;
+    width: 30rem;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    height: 30px;
+    overflow-y: visible;
+}
+.commentIcons{
+    display: flex;
+    align-items: center;
+}
+.i-1, .i-2, .i-3 {
+    border-radius: 50%;
+    font-weight: 200;
+    transform: scale(1);
+    cursor: pointer;
+}
+.i-div {
+    margin-left: 2px;
+    align-items: center;
+    display: flex;
+    padding: 3px;
+    border-radius: 50%;
+}
+.i-div:hover{
+    background-color: rgb(200, 200, 200);
+}
+.userParaImage{
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    animation: img 0.3s;
+}
+.commentParaWrapper{
+    min-width: 4.5rem;
+    overflow-wrap: break-word;
+}
+.commentPara{
+    max-width: 30rem;
+    border-radius: 9px;
+    min-height: 30px;
+    padding: 6px 15px 6px 15px;
+    color:rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(229, 226, 226);
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+    animation: para 0.5s;
+}
+.commentPara:hover {
+    background-color: rgb(216, 216, 216);
+
+}
+.commentName{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+.commentName:hover {
+    text-decoration: underline;
+}
+.reply{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    justify-content: space-between;
+}
+.likeBtn, .replyBtn {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.likeBtn:hover, .replyBtn:hover{
+    text-decoration: underline;
+}
+
+@keyframes popup {
+    from{
+        opacity: 0.9;
+        transform: translateY(5px);
+
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes para {
+    0%{
+        transform: scale(0);
+    }
+    65%{
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+@keyframes img {
+    0%{
+        transform: scale(0.8);
+    }
+    65%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    } 
+}
